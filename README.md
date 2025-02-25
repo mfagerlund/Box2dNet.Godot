@@ -14,6 +14,10 @@ Next to the generated wrapper, a growing set of convenient helpers is included. 
 
 > I don't use Unity and therefore cannot support it. This wrapper is meant for stand-alone use in .NET code, for instance with Monogame.
 
+# Godot	
+
+This fork uses Godot Vector instead of System.Numerics.
+
 # License
 
 You may do whatever you like with the code in this repo. Don't forget to respect the [Box2d v3.x](https://github.com/erincatto/box2d) license, though!
