@@ -11,4 +11,10 @@
     <ProjectReference Include="..\Box2dNet\Box2dNet.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="GodotSharp">
+      <HintPath>..\Box2dNet\GodotSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
