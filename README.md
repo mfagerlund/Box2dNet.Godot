@@ -23,6 +23,10 @@ The upside of a thin wrapper is you don't need to learn a different API, it's th
 
 > When you build your game in DEBUG it will use the native debug dll ```box2dd.dll``` and show assertions if you do something wrong. When you build in RELEASE it will use the native production dll ```box2d.dll```.
 
+# Godot	
+
+This fork uses Godot Vector instead of System.Numerics.
+
 # License
 
 You may do whatever you like with the code in this repo. Don't forget to respect the [Box2d v3.x](https://github.com/erincatto/box2d) license, though!
