@@ -29,4 +29,10 @@
 		<None Include="box2dd.dll" Pack="true" PackagePath="runtimes/win-x64/native" CopyToOutputDirectory="PreserveNewest" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Reference Include="GodotSharp">
+	    <HintPath>bin\Debug\net8.0\GodotSharp.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
 </Project>
