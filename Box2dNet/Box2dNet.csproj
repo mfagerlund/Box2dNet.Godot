@@ -5,7 +5,6 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
-		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Title>Box2d v3 for .NET</Title>
 		<Authors>Thomas Vantroyen</Authors>
 		<Description>A thin Box2D v3 .NET wrapper that stays true to the original API.</Description>
@@ -15,6 +14,8 @@
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<NoWarn>$(NoWarn);1591</NoWarn> <!-- suppress warnings for missing docs -->
 		<Version>3.1.5</Version>
+		<AssemblyName>Box2dNetGodot</AssemblyName>
+		<IsPackable>false</IsPackable>
 	</PropertyGroup>
 
 	<ItemGroup>
